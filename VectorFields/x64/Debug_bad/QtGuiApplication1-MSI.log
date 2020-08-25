@@ -1,0 +1,40 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (QtGuiApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (QtGuiApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  DisplayOptions.cpp
+  FullScreenIcon.cpp
+  Layers.cpp
+  MainWindows.cpp
+  OctreeOptions.cpp
+  PointCloud.cpp
+  Renderer.cpp
+  Scale.cpp
+  Voxel.cpp
+  VoxelBox.cpp
+  main.cpp
+  newWindow.cpp
+  qcustomplot.cpp
+  moc_MainWindows.cpp
+  moc_Layers.cpp
+  moc_DisplayOptions.cpp
+  moc_OctreeOptions.cpp
+  moc_FullScreenIcon.cpp
+  moc_newWindow.cpp
+  moc_Renderer.cpp
+  moc_qcustomplot.cpp
+  moc_Scale.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.IOException: The cloud sync provider failed to validate the downloaded data.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003: 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.FileStream.FlushInternalBuffer()
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.FileStream.Flush(Boolean flushToDisk)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.FileStream.Flush()
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.StreamWriter.Dispose(Boolean disposing)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.TextWriter.Dispose()
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.SaveTlog(DependencyFilter includeInTLog)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(514,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute()

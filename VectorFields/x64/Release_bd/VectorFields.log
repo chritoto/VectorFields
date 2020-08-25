@@ -1,0 +1,43 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (QtGuiApplication1.vcxproj, VectorFields-MSI.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Reading Qt configuration (C:\Qt\5.14.2\msvc2017_64\bin\qmake.exe)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (QtGuiApplication1.vcxproj, VectorFields-MSI.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  uic DisplayOptions.ui
+  uic MainWindows.ui
+  uic OctreeOptions.ui
+  rcc MainWindows.qrc
+  moc MainWindows.h
+  moc Layers.h
+  moc DisplayOptions.h
+  moc OctreeOptions.h
+  moc FullScreenIcon.h
+  moc newWindow.h
+  moc meshRender.h
+  moc qcustomplot.h
+   RCC: Warning: No resources in 'C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.qrc'.
+  moc RendererThread.h
+  moc Scale.h
+  DisplayOptions.cpp
+  FullScreenIcon.cpp
+  Layers.cpp
+  main.cpp
+  MainWindows.cpp
+  meshRender.cpp
+  newWindow.cpp
+  OctreeOptions.cpp
+  PointCloud.cpp
+  qcustomplot.cpp
+  RendererThread.cpp
+  Scale.cpp
+  RayCaster.cpp
+  Voxel.cpp
+  VoxelBox.cpp
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(36,18): error C2039: 'layoutIsolate': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(650,19): error C2039: 'layoutIsolate': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(692,19): error C2039: 'layoutIsolate': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(696,19): error C2039: 'layoutIsolate': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(701,17): error C2039: 'sectionsType': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'

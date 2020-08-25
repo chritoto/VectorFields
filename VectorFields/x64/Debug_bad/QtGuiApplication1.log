@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (QtGuiApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (QtGuiApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  RayCaster.cpp
+  QtGuiApplication1.vcxproj -> C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\QtGuiApplication1\x64\Debug\VectorFields.exe

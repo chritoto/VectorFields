@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (QtGuiApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (QtGuiApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  uic MainWindows.ui
+  Layers.cpp
+  MainWindows.cpp
+  RayCaster.cpp
+  RendererThread.cpp
+  VoxelBox.cpp
+  main.cpp
+  meshRender.cpp
+  newWindow.cpp
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(36,18): error C2039: 'layoutIsolate': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(650,19): error C2039: 'layoutIsolate': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(692,19): error C2039: 'layoutIsolate': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(696,19): error C2039: 'layoutIsolate': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\MainWindows.cpp(701,17): error C2039: 'sectionsType': is not a member of 'Ui::MainWindowsClass'
+C:\Users\chris\OneDrive\Documents\Universite\ete 2020\stage\code\VectorFields\VectorFields\ui_MainWindows.h(1085): message : see declaration of 'Ui::MainWindowsClass'
